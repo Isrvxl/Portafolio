@@ -8,9 +8,12 @@ export default function Projects() {
         <div className='relative z-10 grid max-w-6xl gap-6 mx-auto mt-4 md:grid-cols-4 sm:grid-cols-2'>
             {PROJECTS.map((project, index) => (
                 <div key={index} className="p-4 border-2 border-neutral-800 rounded-2xl">
-                    <motion.h3 whileInView={{opacity: 1, x:0}} initial={{opacity:0, x: -100}} transition={{duration: 1}} className="mb-4 text-xl text-center">{project.title}</motion.h3>
+                    <motion.h3 whileInView={{opacity: 1, x:0}} initial={{opacity:0, x: -100}} transition={{duration: 1}} className="mb-4 text-xl font-semibold text-center">{project.title}</motion.h3>
                     <div className="flex justify-center items-center">
                             <motion.img whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }} transition={{ duration: 1 }} src={project.image} alt={project.title} className="rounded-2xl max-h-full"/>
+                    </div>
+                    <div className="flex justify-center items-center">
+                            <motion.h4 whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }} transition={{ duration: 1 }} className="my-2 text-center">{project.description}</motion.h4>
                     </div>
                     <div className='flex gap-5 justify-center mt-5'>
                         <motion.a whileInView={{opacity: 1}} initial={{opacity:0}} transition={{duration: 1.5}} target='_blank' rel="noopener noreferrer" href={project.urlGithub} className='p-2 transition duration-150 rounded-lg bg-slate-800 text-white hover:bg-slate-900 uppercase'>Github</motion.a>

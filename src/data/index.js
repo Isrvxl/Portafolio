@@ -48,8 +48,7 @@ export const PROJECTS = [
     {
         title: "GuitarLA - React",
         image: project1,
-        description:
-        "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+        description: "Proyecto desarrollado con React (Vite), useState y utilizando LocalStorage.",
         urlGithub: 'https://github.com/Isrvxl/Control_de_Gastos',
         urlDemo: 'https://guitar-la-iv.netlify.app/',
         technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
@@ -57,8 +56,7 @@ export const PROJECTS = [
     {
         title: "Calculadora de Propinas",
         image: project2,
-        description:
-        "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+        description: "Proyecto desarrollado con TypeScript (Vite), TailwindCSS, useMemo.",
         urlGithub: 'https://github.com/Isrvxl/Calculadora_de_Propinas',
         urlDemo: 'https://calculadora-de-propinas-iv.netlify.app/',
         technologies: ["HTML", "CSS", "Angular", "Firebase"],
@@ -66,8 +64,7 @@ export const PROJECTS = [
     {
         title: "Contador de Calorías",
         image: project3,
-        description:
-        "A personal portfolio website showcasing projects, skills, and contact information.",
+        description: "Proyecto desarrollado con TypeScript (Vite), TailwindCSS, useReducer.",
         urlGithub: 'https://github.com/Isrvxl/Calorie_Tracker',  
         urlDemo: 'https://calorie-tracker-iv.netlify.app/',
         technologies: ["HTML", "CSS", "React", "Bootstrap"],
@@ -75,8 +72,7 @@ export const PROJECTS = [
     {
         title: "Control de Gastos",
         image: project4,
-        description:
-        "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+        description: "Proyecto desarrollado con TypeScript (Vite), TailwindCSS, Context API.",
         urlGithub: 'https://github.com/Isrvxl/Control_de_Gastos',
         urlDemo: 'https://control-de-gastos-iv.netlify.app/',
         technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
@@ -84,8 +80,7 @@ export const PROJECTS = [
     {
         title: "Pacientes Veterinaria",
         image: project5,
-        description:
-        "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+        description: "Proyecto desarrollado con TypeScript (Vite), TailwindCSS, Zustand, React Hook Form.",
         urlGithub: 'https://github.com/Isrvxl/Seguimiento_de_Pacientes_Veterinaria',
         urlDemo: 'https://seguimiento-pacientes-veterinaria-iv.netlify.app/',
         technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
@@ -93,8 +88,7 @@ export const PROJECTS = [
     {
         title: "Buscador de Clima",
         image: project6,
-        description:
-        "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+        description: "Proyecto desarrollado con TypeScript (Vite), TailwindCSS, Axios, ZOD.",
         urlGithub: 'https://github.com/Isrvxl/Buscador_de_Clima',
         urlDemo: 'https://buscador-de-clima-iv.netlify.app/',
         technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
