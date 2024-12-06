@@ -51,7 +51,7 @@ export default function Hero() {
                 </div>
                 <div className='w-full lg:w-1/2 lg:p-8'>
                     <div className='flex justify-center'>
-                        <motion.img variants={imgVariants} initial="hidden" animate={controls} className='mt-10 h-96 rounded-3xl border-2 border-neutral-800' src="./hero.png" alt="Israel Verdugo"/>
+                        <motion.img variants={imgVariants} initial="hidden" animate={controls} className='mt-10 h-72 sm:h-96 md:h-96 lg:h-96 rounded-3xl border-2 border-neutral-800' src="./hero.png" alt="Israel Verdugo"/>
                     </div>
                 </div>
             </div>
