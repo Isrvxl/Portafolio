@@ -47,7 +47,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
     {
-        title: "GuitarLA - React",
+        title: "GuitarLA",
         image: project1,
         description: "Proyecto desarrollado con React (Vite), useState y utilizando LocalStorage.",
         urlGithub: 'https://github.com/Isrvxl/Control_de_Gastos',

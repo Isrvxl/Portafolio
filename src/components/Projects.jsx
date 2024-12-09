@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 export default function Projects() {
     return (
         <div className="border-b border-neutral-900 pb-40 pt-20">
-        <motion.h2 whileInView={{opacity: 1, y:0}} initial={{opacity:0, y: -100}} transition={{duration: 0.5}} className="my-20 text-center text-4xl">Mis últimos proyectos</motion.h2>
+        <motion.h2 whileInView={{opacity: 1, y:0}} initial={{opacity:0, y: -100}} transition={{duration: 0.5}} className="my-20 text-center text-4xl">Mis Últimos Proyectos</motion.h2>
         <div className='relative z-10 grid max-w-6xl gap-6 mx-auto mt-4 md:grid-cols-4 sm:grid-cols-2'>
             {PROJECTS.map((project, index) => (
                 <div key={index} className="p-4 border-2 border-neutral-800 rounded-2xl">
