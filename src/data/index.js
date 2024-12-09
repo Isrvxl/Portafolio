@@ -4,6 +4,7 @@ import project3 from "../assets/projects/project3.png"
 import project4 from "../assets/projects/project4.png"
 import project5 from "../assets/projects/project5.png"
 import project6 from "../assets/projects/project6.png"
+import project7 from "../assets/projects/project7.png"
 
 export const HERO_CONTENT = `Desarrollador web e Ingeniero QA con 3 años de experiencia en el sector tecnológico. He colaborado en el diseño, desarrollo y aseguramiento de la calidad de 
 proyectos tecnológicos, destacándome por mi capacidad de adaptarme a nuevos desafíos y aportar soluciones efectivas. Estoy enfocado en aplicar mis habilidades y conocimientos para 
@@ -51,7 +52,6 @@ export const PROJECTS = [
         description: "Proyecto desarrollado con React (Vite), useState y utilizando LocalStorage.",
         urlGithub: 'https://github.com/Isrvxl/Control_de_Gastos',
         urlDemo: 'https://guitar-la-iv.netlify.app/',
-        technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
     },
     {
         title: "Calculadora de Propinas",
@@ -59,7 +59,6 @@ export const PROJECTS = [
         description: "Proyecto desarrollado con TypeScript (Vite), TailwindCSS, useMemo.",
         urlGithub: 'https://github.com/Isrvxl/Calculadora_de_Propinas',
         urlDemo: 'https://calculadora-de-propinas-iv.netlify.app/',
-        technologies: ["HTML", "CSS", "Angular", "Firebase"],
     },
     {
         title: "Contador de Calorías",
@@ -67,7 +66,6 @@ export const PROJECTS = [
         description: "Proyecto desarrollado con TypeScript (Vite), TailwindCSS, useReducer.",
         urlGithub: 'https://github.com/Isrvxl/Calorie_Tracker',  
         urlDemo: 'https://calorie-tracker-iv.netlify.app/',
-        technologies: ["HTML", "CSS", "React", "Bootstrap"],
     },
     {
         title: "Control de Gastos",
@@ -75,7 +73,6 @@ export const PROJECTS = [
         description: "Proyecto desarrollado con TypeScript (Vite), TailwindCSS, Context API.",
         urlGithub: 'https://github.com/Isrvxl/Control_de_Gastos',
         urlDemo: 'https://control-de-gastos-iv.netlify.app/',
-        technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
     },
     {
         title: "Pacientes Veterinaria",
@@ -83,16 +80,21 @@ export const PROJECTS = [
         description: "Proyecto desarrollado con TypeScript (Vite), TailwindCSS, Zustand, React Hook Form.",
         urlGithub: 'https://github.com/Isrvxl/Seguimiento_de_Pacientes_Veterinaria',
         urlDemo: 'https://seguimiento-pacientes-veterinaria-iv.netlify.app/',
-        technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
     },
     {
         title: "Buscador de Clima",
         image: project6,
-        description: "Proyecto desarrollado con TypeScript (Vite), TailwindCSS, Axios, ZOD.",
+        description: "Proyecto desarrollado con TypeScript (Vite), CSS Modules, ZOD, Axios.",
         urlGithub: 'https://github.com/Isrvxl/Buscador_de_Clima',
         urlDemo: 'https://buscador-de-clima-iv.netlify.app/',
-        technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
     },
+    {
+        title: "Cotizador de Cripto",
+        image: project7,
+        description: "Proyecto desarrollado con TypeScript (Vite), CSS, Zustand, ZOD, Axios.",
+        urlGithub: 'https://github.com/Isrvxl/Cotizador_de_Cryptomonedas',
+        urlDemo: 'https://cotizador-crypto-iv.netlify.app/',
+    }
 ];
 
 export const CONTACT = {
