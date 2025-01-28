@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3, FaJs, FaReact, FaPython, FaJava, FaLaravel, FaGit } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaJava, FaLaravel, FaGit } from "react-icons/fa";
 import { SiTypescript, SiTailwindcss, SiDjango, SiMysql, SiPostgresql, SiMongodb, SiPostman} from "react-icons/si";
 import { motion } from "motion/react"
 
@@ -39,19 +39,19 @@ export default function Technologies() {
                 <SiTypescript  className="text-7xl text-blue-600"/>
             </motion.div>
             <motion.div variants={iconVariants(1.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaPython  className="text-7xl text-yellow-400"/>
-            </motion.div>
-            <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaJava  className="text-7xl text-white"/>
-            </motion.div>
-            <motion.div variants={iconVariants(1.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiDjango  className="text-7xl text-green-900"/>
             </motion.div>
             <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaLaravel  className="text-7xl text-red-500"/>
             </motion.div>
             <motion.div variants={iconVariants(1.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiDjango  className="text-7xl text-green-900"/>
+            </motion.div>
+            <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiPostman  className="text-7xl text-orange-600"/>
+            </motion.div>
+            <motion.div variants={iconVariants(1.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4 mt-2">
+                <FaGit  className="text-7xl text-orange-600"/>
             </motion.div>
             <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4 mt-2">
                 <SiMysql  className="text-7xl text-blue-700"/>
@@ -61,9 +61,6 @@ export default function Technologies() {
             </motion.div>
             <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4 mt-2">
                 <SiPostgresql  className="text-7xl text-blue-600"/>
-            </motion.div>
-            <motion.div variants={iconVariants(1.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4 mt-2">
-                <FaGit  className="text-7xl text-orange-600"/>
             </motion.div>
         </motion.div>
     </div>
