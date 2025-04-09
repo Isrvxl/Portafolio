@@ -1,4 +1,3 @@
-import project3 from "../assets/projects/project3.png"
 import project4 from "../assets/projects/project4.png"
 import project5 from "../assets/projects/project5.png"
 import project6 from "../assets/projects/project6.png"
@@ -6,13 +5,14 @@ import project7 from "../assets/projects/project7.png"
 import project8 from "../assets/projects/project8.png"
 import project9 from "../assets/projects/project9.png"
 import project10 from "../assets/projects/project10.png"
+import project11 from "../assets/projects/project11.png"
 
 export const HERO_CONTENT = `Desarrollador web e Ingeniero QA Senior con 3 años de experiencia en el sector tecnológico. He colaborado en el diseño, desarrollo y aseguramiento de la calidad de 
 proyectos tecnológicos, destacándome por mi capacidad de adaptarme a nuevos desafíos y aportar soluciones efectivas. Estoy enfocado en aplicar mis habilidades y conocimientos para 
 contribuir al éxito de un equipo dinámico, enfrentar nuevos desafíos y seguir creciendo profesionalmente.`;
 
 export const ABOUT_TEXT = `Desarrollador web versátil y comprometido con 3 años de experiencia profesional en tecnologías como Java, Laravel,
-JavaScript, React, TypeScript. Especializado en la creación de aplicaciones FullStack eficientes e innovadoras, con stacks como PERN y/o MERN, integrando herramientas modernas como Express
+JavaScript, React, TypeScript. Especializado en la creación de aplicaciones FullStack eficientes e innovadoras, con stacks como PERN y/o MERN, integrando herramientas modernas como Express,
 React Router DOM, Tailwind CSS, Jest, SuperTest y Swagger para la documentación de API's.
 Inicié mi carrera como desarrollador freelance, trabajando en proyectos basados en WordPress y Laravel. Posteriormente, me desempeñé como Ingeniero QA, 
 fortaleciendo habilidades clave como la atención al detalle, análisis crítico y trabajo en equipo.
@@ -48,13 +48,6 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-    {
-        title: "Contador de Calorías",
-        image: project3,
-        description: "Proyecto React-TypeScript con TailwindCSS, useReducer.",
-        urlGithub: 'https://github.com/Isrvxl/Calorie_Tracker',  
-        urlDemo: 'https://calorie-tracker-iv.netlify.app',
-    },
     {
         title: "Control de Gastos",
         image: project4,
@@ -95,14 +88,20 @@ export const PROJECTS = [
         image: project9,
         description: "Proyecto PERN Stack con Jest, Swagger, TailwindCSS, React Router DOM y Sequalize.",
         urlGithub: 'https://github.com/Isrvxl/PERN_CLIENT',
-        urlDemo: 'https://administrador-de-productos-iv.vercel.app',
     },
     {
         title: "UpTask",
         image: project10,
-        description: "Proyecto MERN Stack con TailwindCSS, Zod, Axios, React Router DOM y Moongose.",
+        description: "Proyecto MERN Stack con TailwindCSS, ZOD, Axios, React Router DOM y Moongose.",
         urlGithub: 'https://github.com/Isrvxl/UpTask_Frontend',
         urlDemo: 'https://up-task-iv.vercel.app',
+    },
+    {
+        title: "Quiosco Fresh Coffee",
+        image: project11,
+        description: "Proyecto Next.js con TypeScript, TailwindCSS, Server Actions, App Router, Prisma, ZOD",
+        urlGithub: 'https://github.com/Isrvxl/Quiosco',
+        urlDemo: 'https://quiosco-iv.vercel.app/order/cafe',
     },
 ];
 
