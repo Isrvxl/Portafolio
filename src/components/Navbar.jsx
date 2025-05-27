@@ -1,4 +1,4 @@
-import { FaCode, FaLinkedin, FaGithub, FaGitlab } from "react-icons/fa";
+import { FaCode, FaLinkedin, FaGithub, FaGitlab, FaFileDownload } from "react-icons/fa";
 
 export default function Navbar() {
     return (
@@ -10,17 +10,10 @@ export default function Navbar() {
 
             <div className="flex items-center justify-center gap-6 text-2xl sm:justify-end sm:w-auto">
                 <a
-                    href="https://www.linkedin.com/in/israelverdugo/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-blue-700 transition-colors"
-                >
-                    <FaLinkedin />
-                </a>
-                <a
                     href="https://github.com/Isrvxl"
                     target="_blank"
                     rel="noopener noreferrer"
+                    title="GitHub"
                     className="hover:text-blue-700 transition-colors"
                 >
                     <FaGithub />
@@ -29,9 +22,27 @@ export default function Navbar() {
                     href="https://gitlab.com/isrvxl"
                     target="_blank"
                     rel="noopener noreferrer"
+                    title="GitLab"
                     className="hover:text-blue-700 transition-colors"
                 >
                     <FaGitlab />
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/israelverdugo/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="LinkedIn"
+                    className="hover:text-blue-700 transition-colors"
+                >
+                    <FaLinkedin />
+                </a>
+                <a
+                    href="/docs/Israel-Verdugo.docx"
+                    download
+                    title="Descargar CV"
+                    className="hover:text-blue-700 transition-colors"
+                >
+                    <FaFileDownload />
                 </a>
             </div>
         </nav>

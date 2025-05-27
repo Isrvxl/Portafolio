@@ -1,27 +1,25 @@
 import project4 from "../assets/projects/project4.png"
-import project5 from "../assets/projects/project5.png"
 import project6 from "../assets/projects/project6.png"
 import project7 from "../assets/projects/project7.png"
 import project8 from "../assets/projects/project8.png"
 import project9 from "../assets/projects/project9.png"
 import project10 from "../assets/projects/project10.png"
 import project11 from "../assets/projects/project11.png"
+import project12 from "../assets/projects/project12.png"
 
-export const HERO_CONTENT = `Desarrollador web e Ingeniero QA Senior con 3 años de experiencia en el sector tecnológico. He colaborado en el diseño, desarrollo y aseguramiento de la calidad de 
+export const HERO_CONTENT = `Desarrollador Full Stack e Ingeniero QA Senior con más de 3 años de experiencia en el sector tecnológico. He colaborado en el diseño, desarrollo y aseguramiento de calidad de 
 proyectos tecnológicos, destacándome por mi capacidad de adaptarme a nuevos desafíos y aportar soluciones efectivas. Estoy enfocado en aplicar mis habilidades y conocimientos para 
 contribuir al éxito de un equipo dinámico, enfrentar nuevos desafíos y seguir creciendo profesionalmente.`;
 
-export const ABOUT_TEXT = `Desarrollador web versátil y comprometido con 3 años de experiencia profesional en tecnologías como Java, Laravel,
-JavaScript, React, TypeScript. Especializado en la creación de aplicaciones FullStack eficientes e innovadoras, con stacks como PERN y/o MERN, integrando herramientas modernas como Express,
-React Router DOM, Tailwind CSS, Jest, SuperTest y Swagger para la documentación de API's.
-Inicié mi carrera como desarrollador freelance, trabajando en proyectos basados en WordPress y Laravel. Posteriormente, me desempeñé como Ingeniero QA, 
-fortaleciendo habilidades clave como la atención al detalle, análisis crítico y trabajo en equipo.
-Actualmente, estoy centrado en el desarrollo web, creando soluciones robustas y escalables. Disfruto enfrentar desafíos técnicos, colaborar en equipo y aprender 
+export const ABOUT_TEXT = `Desarrollador Full Stack con experiencia profesional en tecnologías como Java, Laravel,
+JavaScript, React, TypeScript y Angular. Especializado en la creación de aplicaciones Full Stack eficientes e innovadoras, he trabajado con stacks como PERN y MERN, con herramientas modernas como Express, 
+Tailwind CSS, Jest, SuperTest y Swagger para la documentación de API's.
+Actualmente, estoy centrado en el desarrollo full stack, creando soluciones robustas y escalables con React y/o Angular. Disfruto enfrentar desafíos técnicos, colaborar en equipo y aprender 
 continuamente nuevas tecnologías para mantenerme a la vanguardia en el sector tecnológico.`;
 
 export const EXPERIENCES = [
     {
-        year: "2022 - 2024",
+        year: "2022 - 2025",
         role: "Ingeniero QA Senior (Manual y Automatizador)",
         company: "Sentra",
         description: `Automatización de pruebas con Selenium y Cucumber. Realización de pruebas de rendimiento con JMeter. Pruebas de APIs utilizando Postman. 
@@ -54,13 +52,6 @@ export const PROJECTS = [
         description: "Proyecto React-TypeScript con TailwindCSS, Context API.",
         urlGithub: 'https://github.com/Isrvxl/Control_de_Gastos',
         urlDemo: 'https://control-de-gastos-iv.netlify.app',
-    },
-    {
-        title: "Pacientes Veterinaria",
-        image: project5,
-        description: "Proyecto React-TypeScript con TailwindCSS, Zustand, React Hook Form.",
-        urlGithub: 'https://github.com/Isrvxl/Seguimiento_de_Pacientes_Veterinaria',
-        urlDemo: 'https://seguimiento-pacientes-veterinaria-iv.netlify.app',
     },
     {
         title: "Buscador de Clima",
@@ -101,12 +92,18 @@ export const PROJECTS = [
         image: project11,
         description: "Proyecto Next.js con TypeScript, TailwindCSS, Server Actions, App Router, Prisma, ZOD",
         urlGithub: 'https://github.com/Isrvxl/Quiosco',
-        urlDemo: 'https://quiosco-iv.vercel.app/order/cafe',
+    },
+    {
+        title: "Countries App",
+        image: project12,
+        description: "Proyecto Angular-TypeScript con TailwindCSS, DaisyUI, Signals, RxJS.",
+        urlGithub: 'https://github.com/Isrvxl/Countries_App',
+        urlDemo: 'https://countries-app-iv.netlify.app/',
     },
 ];
 
 export const CONTACT = {
     address: "Santiago, Chile",
     phoneNo: "+569 34240921",
-    email: "israel.verdugo.angeles@gmail.com",
+    email: "isrvelverdugo@gmail.com",
 };
