@@ -85,7 +85,6 @@ export const PROJECTS = [
         image: project10,
         description: "Proyecto MERN Stack con TailwindCSS, ZOD, Axios, React Router DOM y Moongose.",
         urlGithub: 'https://github.com/Isrvxl/UpTask_Frontend',
-        urlDemo: 'https://up-task-iv.vercel.app',
     },
     {
         title: "Quiosco Fresh Coffee",
